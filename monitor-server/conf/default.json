@@ -42,10 +42,10 @@
   "store": {
     "name": "default",
     "type": "mysql",
-    "server": "127.0.0.1",
+    "server": "82.157.168.170",
     "port": "3306",
     "user": "root",
-    "pwd": "wecube",
+    "pwd": "zxl_198313",
     "database": "monitor",
     "maxOpen": 20,
     "maxIdle": 10,
@@ -58,7 +58,7 @@
         "id": 1,
         "type": "prometheus",
         "env": "dev",
-        "host": "127.0.0.1:9090",
+        "host": "82.157.168.170:9090",
         "token": ""
       }
     ],

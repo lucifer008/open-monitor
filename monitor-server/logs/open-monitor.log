@@ -1,0 +1,24 @@
+{"level":"info","time":"2022-07-10 18:02:12","caller":"logger/zap.go:58","msg":"Success init server log !!"}
+{"level":"info","time":"2022-07-10 18:02:12","caller":"db/xorm.go:42","msg":"Success init database connect !!"}
+{"level":"info","time":"2022-07-10 18:02:12","caller":"db/xorm.go:70","msg":"Init archive mysql prometheus_archive_2022 success"}
+{"level":"info","time":"2022-07-10 18:02:12","caller":"db/cron.go:51","msg":"Start check cron fail,event key is empty,please check env MONITOR_CHECK_EVENT_KEY"}
+{"level":"info","time":"2022-07-10 18:02:12","caller":"middleware/error_message.go:42","msg":"Init errorMessage success"}
+{"level":"error","time":"2022-07-10 18:02:12","caller":"prom/prometheus.go:120","msg":"Exec command mkdir -p /app/monitor/prometheus/sd_file fail,error","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"error","time":"2022-07-10 18:02:12","caller":"prom/file_sd.go:19","msg":"Run make sd dir command fail","output":"","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"info","time":"2022-07-10 18:02:12","caller":"prom/file_sd.go:21","msg":"Start consume prometheus service discover config job"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"logger/zap.go:58","msg":"Success init server log !!"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"db/xorm.go:42","msg":"Success init database connect !!"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"db/xorm.go:70","msg":"Init archive mysql prometheus_archive_2022 success"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"db/cron.go:51","msg":"Start check cron fail,event key is empty,please check env MONITOR_CHECK_EVENT_KEY"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"middleware/error_message.go:42","msg":"Init errorMessage success"}
+{"level":"error","time":"2022-07-10 18:05:48","caller":"prom/prometheus.go:120","msg":"Exec command mkdir -p /app/monitor/prometheus/sd_file fail,error","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"error","time":"2022-07-10 18:05:48","caller":"prom/file_sd.go:19","msg":"Run make sd dir command fail","output":"","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"info","time":"2022-07-10 18:05:48","caller":"prom/file_sd.go:21","msg":"Start consume prometheus service discover config job"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"logger/zap.go:58","msg":"Success init server log !!"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"db/xorm.go:42","msg":"Success init database connect !!"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"db/xorm.go:70","msg":"Init archive mysql prometheus_archive_2022 success"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"db/cron.go:51","msg":"Start check cron fail,event key is empty,please check env MONITOR_CHECK_EVENT_KEY"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"middleware/error_message.go:42","msg":"Init errorMessage success"}
+{"level":"error","time":"2022-07-10 18:06:15","caller":"prom/prometheus.go:120","msg":"Exec command mkdir -p /app/monitor/prometheus/sd_file fail,error","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"error","time":"2022-07-10 18:06:15","caller":"prom/file_sd.go:19","msg":"Run make sd dir command fail","output":"","error":"exec: \"/bin/sh\": file does not exist"}
+{"level":"info","time":"2022-07-10 18:06:15","caller":"prom/file_sd.go:21","msg":"Start consume prometheus service discover config job"}
