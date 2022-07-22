@@ -691,6 +691,10 @@ export default {
           {
             label: 'other',
             value: 'other'
+        },
+         {
+            label: 'myapp',
+            value: 'myapp'
         }]
       this.modelTip.value = rowData.guid
       this.endpointRejectModel.isAdd = false
